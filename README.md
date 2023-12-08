@@ -33,10 +33,10 @@ The goal of this project is to develop a data lake solution using Azure Databric
 
     ![Task2](screenshots/Task2.png)
 
-2. Execute the code in [extract_from_DBFS.ipynb](extract_from_DBFS.ipynb)
-3. Execute the code in [load_to_staging.ipynb](load_to_staging.ipynb)
+2. Execute the code in [extract_from_DBFS.ipynb](scripts/extract_from_DBFS.ipynb)
+3. Execute the code in [load_to_staging.ipynb](scripts/load_to_staging.ipynb)
 
 ### Step 3:  Transform the data into the star schema for a Gold data store
-1. Execute the code in [transform_to_star.ipynb](transform_to_star.ipynb)
+1. Execute the code in [transform_to_star.ipynb](scripts/transform_to_star.ipynb)
 
 ![Task3](screenshots/Task3.png)
