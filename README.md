@@ -26,15 +26,17 @@ The goal of this project is to develop a data lake solution using Azure Databric
 ## Project Steps
 
 ### Step 1: Design the Star Schema
-![ERD](screenshots/star_schema.png)
+![star_schema](screenshots/star_schema.png)
 
 ### Step 2:  Import the data into Azure Databricks using Delta Lake to create a Bronze data store
 1. Import the .csv files to DBFS
 
-    ![ERD](screenshots/Task2.png)
+    ![Task2](screenshots/Task2.png)
 
 2. Execute the code in [extract_from_DBFS.ipynb](extract_from_DBFS.ipynb)
 3. Execute the code in [load_to_staging.ipynb](load_to_staging.ipynb)
 
-
 ### Step 3:  Transform the data into the star schema for a Gold data store
+1. Execute the code in [transform_to_star.ipynb](transform_to_star.ipynb)
+
+![Task3](screenshots/Task3.png)
