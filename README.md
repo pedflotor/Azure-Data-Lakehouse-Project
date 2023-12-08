@@ -40,3 +40,4 @@ The goal of this project is to develop a data lake solution using Azure Databric
 1. Execute the code in [transform_to_star.ipynb](scripts/transform_to_star.ipynb)
 
 ![Task3](screenshots/Task3.png)
+
